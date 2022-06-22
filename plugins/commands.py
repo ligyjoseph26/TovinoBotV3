@@ -74,7 +74,7 @@ async def start(client, message: pyrogram.types.Message):
         InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
       [
         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
-        InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='help')
     ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
